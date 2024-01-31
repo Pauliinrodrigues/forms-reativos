@@ -1,0 +1,15 @@
+<h3>Formulário Fornecedor</h3>
+<form [formGroup]="formulario">
+
+    <div>
+        <input type="text" formControlName="rg" placeholder="RG">
+    </div>
+
+    <div>
+        Posui CNH?
+        <input type="checkbox" formControlName="hasCnh">
+    </div>
+
+    <div>
+        <input type="text" formControlName="cnh" placeholder="CNH">
+    </div>

@@ -1,0 +1,25 @@
+<h1>Formulário Fornecedor</h1>
+
+<form [formGroup]="formulario">
+
+    <div class="form-group">
+        <input type="text" formControlName="nome" placeholder="Nome">
+    </div>
+    <div>
+        <input type="text" formControlName="sobrenome" placeholder="Sobrenome">
+    </div>
+    <div>
+        <input type="date" formControlName="datanasci" placeholder="Data de Nascimento">
+    </div>
+    <div>
+        <input type="text" formControlName="rg" placeholder="RG">
+    </div>
+
+    <div>
+        Posui CNH?
+        <input type="checkbox" formControlName="hasCnh">
+    </div>
+
+    <div>
+        <input type="text" formControlName="cnh" placeholder="CNH">
+    </div>
